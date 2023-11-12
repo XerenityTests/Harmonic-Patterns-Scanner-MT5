@@ -1,0 +1,49 @@
+// Код для идентификации гармонических паттернов на платформе MetaTrader 5
+// Язык программирования MQL5
+
+// Модуль для идентификации гармонических паттернов
+class HarmonicPatternsScanner {
+  // Метод для определения гармонических паттернов на графиках
+    void detectPatterns(string symbol, ENUM_TIMEFRAMES timeframe) {
+        // Реализация алгоритма идентификации гармонических паттернов
+            // ...
+              }
+              }
+
+              // Модуль для обновления информации о паттернах в реальном времени
+              class RealTimeUpdater {
+                // Метод для обновления информации о паттернах на графиках
+                  void updatePatterns(string symbol, ENUM_TIMEFRAMES timeframe) {
+                      // Реализация алгоритма обновления информации о паттернах в реальном времени
+                          // ...
+                            }
+                            }
+
+                            // Модуль для отображения графического интерфейса пользователя
+                            class GUI {
+                              // Метод для отображения графического интерфейса
+                                void displayGUI() {
+                                    // Реализация графического интерфейса пользователя
+                                        // ...
+                                          }
+                                          }
+
+                                          // Основной код программы
+                                          void OnStart() {
+                                            // Создание экземпляров модулей
+                                              HarmonicPatternsScanner scanner = new HarmonicPatternsScanner();
+                                                RealTimeUpdater updater = new RealTimeUpdater();
+                                                  GUI gui = new GUI();
+
+                                                    // Идентификация гармонических паттернов на заданных валютных парах и временных интервалах
+                                                      scanner.detectPatterns('EURUSD', PERIOD_H1);
+                                                        scanner.detectPatterns('GBPUSD', PERIOD_H4);
+
+                                                          // Обновление информации о паттернах в реальном времени
+                                                            updater.updatePatterns('EURUSD', PERIOD_H1);
+                                                              updater.updatePatterns('GBPUSD', PERIOD_H4);
+
+                                                                // Отображение графического интерфейса пользователя
+                                                                  gui.displayGUI();
+                                                                  }
+                                                                  </code>
